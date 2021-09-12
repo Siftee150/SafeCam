@@ -8,6 +8,8 @@ Current progress=>
 * Used the bounding boxes thus extracted as input to optical flow algorithm (optical flow is used to estimate the change or motion between 2 frames. So previous frame and current frame are needed as inputs)
 * Stored the training feature vectors in a list
 * Downloaded and integrated the dataset <br><br>
-Further evaluation criterias=>
-* Should we store feature vectors from training dataset in list or in a file? 
+* Made Opencv GPU enabled<br><br>
+Further work=>
 * Try implementing another optical flow algorithm provided by openCV like DeepFlow or Dense RLOF as they are regarded as better than Gunnar FarneBack model 
+* Train the model, investigate differences
+* 
