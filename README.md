@@ -12,4 +12,3 @@ Current progress=>
 Further work=>
 * Try implementing another optical flow algorithm provided by openCV like DeepFlow or Dense RLOF as they are regarded as better than Gunnar FarneBack model 
 * Train the model, investigate differences
-* 
