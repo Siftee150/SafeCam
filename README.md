@@ -13,6 +13,7 @@ Current progress=>
 * Completed training
 * Tried RAFT deep learning method for optical flow calculation, but still needs fine tuning
 * Completed testing on ped2 dataset, results seem accurate
+* AUC of 0.82 (approx) on ped dataset!
 Further work and remarks=>
-* Fine tuning RAFT 
-* The range of scores is exceeding the threshold by huge amounts. We need to normalize testing results before computing AUC metric
+* Fine tuning and deciding on RAFT usage 
+* Trying on other datasets
