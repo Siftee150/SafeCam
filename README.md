@@ -10,9 +10,9 @@ Current progress=>
 * Downloaded and integrated the dataset
 * Made Opencv GPU enabled
 * Normalized the dataset
-* Completed training<br><br>
+* Completed training
+* Tried RAFT deep learning method for optical flow calculation, but still needs fine tuning
+* Completed testing on ped2 dataset, results seem accurate
 Further work and remarks=>
-* Try implementing another optical flow algorithm provided by openCV like DeepFlow or Dense RLOF as they are regarded as better than Gunnar FarneBack model 
-* The lowest nominal knn distance is 0.35 and the highest is 1.49, to give an overall range of 1.14(approx.) for the nominal training dataset.(Is this satisfactory?)
-* Should we find Base_lm for a fixed number of iterations of shuffled feature matrix?
-* Start testing the model
+* Fine tuning RAFT 
+* TThe range of scores is exceeding the threshold by huge amounts. We need to normalize testing results before computing AUC metric
