@@ -15,4 +15,4 @@ Current progress=>
 * Completed testing on ped2 dataset, results seem accurate
 Further work and remarks=>
 * Fine tuning RAFT 
-* TThe range of scores is exceeding the threshold by huge amounts. We need to normalize testing results before computing AUC metric
+* The range of scores is exceeding the threshold by huge amounts. We need to normalize testing results before computing AUC metric
