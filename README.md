@@ -1,6 +1,5 @@
 # SafeCam
 Video anomaly detection app.<br><br>
-Referenced paper for the ML model: https://arxiv.org/abs/2004.07941 <br><br>
 ShanghaiTech dataset and ped2 dataset: http://download.impersonator.org:8181/dataset/ <br><br>
 Avenue dataset: http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html<br><br>
 Current progress=> 
@@ -19,3 +18,4 @@ Current progress=>
 <!-- end of the list -->
 Further work and remarks=><br>
 1)  Fine tuning and deciding on RAFT usage 
+2)  Improving optical flow usage, since model seems to give a low performance motion-wise
