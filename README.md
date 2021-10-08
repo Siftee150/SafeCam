@@ -14,8 +14,9 @@ Current progress=>
 * Completed testing on ped2 dataset, results seem accurate
 * AUC of 0.82 (approx) on ped2 dataset!
 * Completed testing on avenue dataset
-* AUC Of 0.71  (approx) on avenue dataset
+* AUC of 0.71  (approx) on avenue dataset
+* Changed defination of predicted labels
+* AUC of 0.77 (approx) on avenue dataset 
 <!-- end of the list -->
 Further work and remarks=><br>
-1)  Fine tuning and deciding on RAFT usage 
-2)  Improving optical flow usage, since model seems to give a low performance motion-wise
+1)  Improve threshold defination
